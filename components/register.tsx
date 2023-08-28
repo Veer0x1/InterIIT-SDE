@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { Button, buttonVariants } from "./ui/button"; // Make sure to import your button styles
@@ -81,24 +81,13 @@ export default function Register() {
             <span className="text-red-500">Password is required</span>
           )}
         </div>
-       <div className="flex flex-row items-center justify-center">
-        <div> 
-            <Button 
-          type="submit"
-        variant={"default"}
-        size={"lg"}
-        >
-
-          Register
-         </Button>
-         </div>
-        
+        <div className="flex flex-row items-center justify-center">
+          <div>
+            <Button type="submit" variant={"default"} size={"lg"}>
+              Register
+            </Button>
           </div>
-        
-     
-  
-     
-       
+        </div>
       </form>
     </div>
   );
